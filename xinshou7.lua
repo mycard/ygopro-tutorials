@@ -1,0 +1,12 @@
+--puzzle1
+Debug.SetAIName("萌系丶妖妖")
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI)
+Debug.SetPlayerInfo(0,18000,0,0)
+Debug.SetPlayerInfo(1,10000,0,0)
+Debug.AddCard(95503687,0,0,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.AddCard(95503687,0,0,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.AddCard(77558536,0,0,LOCATION_GRAVE,0,POS_FACEDOWN)
+Debug.AddCard(25958491,0,0,LOCATION_EXTRA,0,POS_FACEDOWN)
+Debug.ReloadFieldEnd()
+Debug.ShowHint("调整和调整以外的怪兽在满足卡片条件时可以同调召唤，同调召唤属于特殊召唤，召唤后的怪兽等级必须等于同调素材等级之和")
+aux.BeginPuzzle()
