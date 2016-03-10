@@ -1,0 +1,10 @@
+--puzzle1
+Debug.SetAIName("萌系丶妖妖")
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI)
+Debug.SetPlayerInfo(0,100,0,0)
+Debug.SetPlayerInfo(1,1300,0,0)
+Debug.AddCard(27927359,0,0,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.AddCard(46130346,1,1,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.ReloadFieldEnd()
+Debug.ShowHint("4星以下的怪兽可以通常召唤，一回合仅能通常召唤一次")
+aux.BeginPuzzle()

@@ -1,0 +1,11 @@
+--puzzle1
+Debug.SetAIName("萌系丶妖妖")
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI)
+Debug.SetPlayerInfo(0,100,0,0)
+Debug.SetPlayerInfo(1,2500,0,0)
+Debug.AddCard(81179446,0,0,LOCATION_MZONE,2,POS_FACEUP)
+Debug.AddCard(81179446,0,0,LOCATION_MZONE,3,POS_FACEUP)
+Debug.AddCard(46986414,0,0,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.ReloadFieldEnd()
+Debug.ShowHint("7-8星需要解放2只怪兽召唤")
+aux.BeginPuzzle()
